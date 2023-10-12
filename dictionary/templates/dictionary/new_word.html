@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+{% load static %}
+<link type="text/css" href="{% static 'dictionary/style.css' %}" rel="stylesheet" />
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><My dictionary></title>
+</head>
+<body>
+<form action="{% url 'add_word' %}" method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Добавить</button>
+</form>
+</body>
+</html>
