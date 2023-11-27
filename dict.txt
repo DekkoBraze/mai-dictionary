@@ -1,3 +1,5 @@
 Яблоко-Apple
 Ананас-Pineapple
 Дерево-Wood
+Стол-Table
+Ручка-Pen
